@@ -20,11 +20,11 @@ Ridge Regression with alpha = 10 achieved the lowest test MAE of KES 13,624.90. 
 
 Two Key Findings
 
-1. Ridge Regression performed substantially better than the mean and median baselines, which had negative R² values.
-2. Prediction errors differed across customer segments, with Retail having the highest MAE and SME the lowest. The deep Decision Tree also showed overfitting, with zero training MAE but a much higher test MAE.
+1. Ridge Regression performed substantially better than the mean and median baselines which had negative R² values.
+2. Prediction errors differed across customer segments, with Retail having the highest MAE and SME the lowest. The deep Decision Tree also showed overfitting with zero training MAE but a much higher test MAE.
 
 Three Limitations
 
 1. The dataset contains only 320 observations, which may not represent all real-world sales patterns.
-2. The model excludes potentially important factors such as seasonality, competitor prices, and changing customer demand.
+2. The model excludes potentially important factors such as seasonality, competitor prices and changing customer demand.
 3. The model requires further validation on new data to confirm that its performance remains reliable over time.
